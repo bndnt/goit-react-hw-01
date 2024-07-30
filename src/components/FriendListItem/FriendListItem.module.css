@@ -1,0 +1,29 @@
+.friendCard {
+  /* gap: 8px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.friendCard img {
+  border-radius: 0;
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  font-size: large;
+  font-weight: 600;
+}
+
+.status {
+  font-size: medium;
+}
+
+.status.isOnline {
+  color: green;
+}
+
+.status.isOffline {
+  color: red;
+}
